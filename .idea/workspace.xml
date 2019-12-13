@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ba6be4d-d9ce-45cb-ad3f-0d864e98668e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/php/directoryoperation/mkdirectory.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/directoryoperation/nation/city.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/directoryoperation/readdir.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/php/directoryoperation/renam_Delete.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/fileupload/upload.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/php/fileupload/upload_store.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/php/clickcount/counter.txt" beforeDir="false" afterPath="$PROJECT_DIR$/php/clickcount/counter.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,35 +26,44 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="php" value="5" />
+          <entry key="php" value="7" />
           <entry key="txt" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PHP" value="5" />
+          <entry key="PHP" value="7" />
           <entry key="PLAIN_TEXT" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="422" />
+          <entry key="php" value="1088" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="422" />
+          <entry key="PHP" value="1088" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/php/directoryoperation/readdir.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/fileupload/upload.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+            <state relative-caret-position="242">
+              <caret line="11" column="65" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/php/fileupload/upload_store.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="17" column="46" lean-forward="true" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -74,6 +80,8 @@
         <option value="$PROJECT_DIR$/php/directoryoperation/mkdirectory.php" />
         <option value="$PROJECT_DIR$/php/directoryoperation/renam_Delete.php" />
         <option value="$PROJECT_DIR$/php/directoryoperation/readdir.php" />
+        <option value="$PROJECT_DIR$/php/fileupload/upload.php" />
+        <option value="$PROJECT_DIR$/php/fileupload/upload_store.php" />
       </list>
     </option>
   </component>
@@ -111,14 +119,7 @@
               <item name="WebDeb" type="b2602c69:ProjectViewProjectNode" />
               <item name="WebDeb" type="462c0819:PsiDirectoryNode" />
               <item name="php" type="462c0819:PsiDirectoryNode" />
-              <item name="directoryoperation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="WebDeb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="WebDeb" type="462c0819:PsiDirectoryNode" />
-              <item name="php" type="462c0819:PsiDirectoryNode" />
-              <item name="directoryoperation" type="462c0819:PsiDirectoryNode" />
-              <item name="nation" type="462c0819:PsiDirectoryNode" />
+              <item name="fileupload" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -131,6 +132,11 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\m\WebDeb\php\directoryoperation\nation" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -157,12 +163,12 @@
       <workItem from="1573359071360" duration="4190000" />
       <workItem from="1573384542637" duration="682000" />
       <workItem from="1573823900208" duration="24000" />
-      <workItem from="1576216581879" duration="5388000" />
+      <workItem from="1576216581879" duration="8741000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10284000" />
+    <option name="totallyTimeSpent" value="13637000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -237,6 +243,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
           <caret line="1" column="26" selection-start-line="1" selection-start-column="26" selection-end-line="1" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/fileupload/upload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="65" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/fileupload/upload_store.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="46" lean-forward="true" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
         </state>
       </provider>
     </entry>
