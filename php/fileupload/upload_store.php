@@ -18,7 +18,15 @@ if (!empty($_POST["submit"])){
         $filenameArray = explode('.',$fileName);
         $fileExt = end($filenameArray);
         $fileNewName = time().rand(1000,9999).'.'.$fileExt;
-        $destination = "destination/".$fileNewName;
+
+        $dir = date("Y")."/".date("m")."/".date("d");
+
+        if (!is_dir($dir)){
+            mkdir($dir,0777,true);
+        }else{
+            echo "folder exist <br >";
+        }
+        $destination = $dir."/".$fileNewName;
         if (move_uploaded_file($tmpName,$destination)){
             echo "uploaded";
         }else{
